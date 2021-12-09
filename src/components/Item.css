@@ -1,0 +1,67 @@
+.todo-item {
+  margin: 1rem 0;
+  font-size: 1rem;
+  background: #8b005d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  padding: 0.1rem 1.1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+
+.todo-item-done {
+  margin: 1rem 0;
+  font-size: 1rem;
+  background: #403f41;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  padding: 0.1rem 1.1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+
+.btn-div {
+  margin: auto 5px;
+
+}
+.button-is-done {
+  width: 100px;
+  margin-left: 3px;
+  font: inherit;
+  padding: 2px;
+  border: 1px solid #210797;
+  border-radius: 5px;
+  color: white;
+  background: #210797;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+.button-edit {
+  width: 100px;
+  margin-left: 3px;
+  font: inherit;
+  padding: 2px;
+  border: 1px solid #00fd0d;
+  border-radius: 5px;
+  color: white;
+  background: #00fd0d;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+
+.button-delete {
+  width: 100px;
+  margin-left: 3px;
+  font: inherit;
+  padding: 2px;
+  border: 1px solid #c40b0b;
+  border-radius: 5px;
+  color: white;
+  background: #c40b0b;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
